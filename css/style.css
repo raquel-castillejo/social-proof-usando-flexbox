@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: darkgray;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* FONDO DEL EJERCICIO */
+/* ******************* */
+
+.practice {
+    width: 1440px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 3rem; /* sólo para separar el ejercicio del borde de la ventana */
+
+    background:
+        url(../assets/images/bg-pattern-top-desktop.svg)
+        no-repeat
+        left top,
+
+        url(../assets/images/bg-pattern-bottom-desktop.svg)
+        no-repeat
+        bottom right;
+    background-color: white;
+
+    padding: 5rem 10rem;
+}
+
+
+
+/* TOP INFO */
+/* ******** */
+
+.top-info {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.header {
+    width: 40%;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: hsl(300 43% 22%);
+
+    margin-bottom: 1rem;
+}
+
+.highlighted-text { 
+    background-color: hsl(303 10% 53% / .4);
+    box-shadow: -1rem 0px hsl(303 10% 53% / .4); /* para que el resaltado también ocupe espacio delante del texto */
+}
+
+.text {
+    color: hsl(303, 10%, 53%);
+    font-size: 1.2rem;
+}
+
+
+
+/* RATINGS */
+/* ******* */
+
+.ratings {
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: hsl(300 43% 22% / .9);
+}
+
+.rating {
+    background-color: hsl(300, 24%, 96%);
+    font-weight: 700;
+
+    width: 27rem;
+    margin: .5rem;
+    padding-left: 1.5rem;
+    border-radius: .4rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    position: relative;
+}
+
+.five-stars {
+    margin-right: 2rem;
+}
+
+.rating-reportguru {
+    left: 2rem;
+}
+
+.rating-besttech {
+    left: 4rem;
+}
+
+
+/* OPINIONS */
+/* ******** */
+
+.opinions {
+    position: relative;
+    top: 4rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.opinion-card {
+    width: calc(33.3% - 1rem);
+    background-color: hsl(300 43% 22%);
+    color: white;
+
+    border-radius: .4rem;
+    padding: 2rem;
+    position: relative;
+
+    line-height: 1.5;
+}
+
+.opinion-header {
+    font-weight: 700;
+}
+
+.opinion-photo {
+    width: 2.5rem;
+    height: auto;
+
+    border-radius: 50%;
+    margin-right: 1rem;
+
+    position: relative;
+    top: .15rem;
+}
+
+.opinion-name {
+    display: inline-block;
+}
+
+.name,
+.verified-status {
+    margin: 0;
+}
+
+.verified-status {
+    color: hsl(333 80% 67% / .6);
+}
+
+.opinion-card-2 {
+    top: 1.2rem;
+}
+
+.opinion-card-3 {
+    top: 2.4rem;
+}
