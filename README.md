@@ -1,4 +1,4 @@
-# Práctica con degradados radiales: banderas
+# Práctica con flexbox
 
 ![Imagen del proyecto](https://github.com/raquel-castillejo/006-social-proof/blob/main/design/desktop-design.jpg)
 
