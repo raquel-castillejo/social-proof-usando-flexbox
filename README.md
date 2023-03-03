@@ -8,7 +8,7 @@
 
 ## Descripción 📑
 
-El objetivo de esta práctica es replicar las banderas dadas utilizando los degradados (radiales) de color en CSS.
+El objetivo de esta práctica es replicar la imagen dada utilizando flexbox (además de lo aprendido anteriormente en CSS).
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻
 
